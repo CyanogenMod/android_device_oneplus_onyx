@@ -1,14 +1,8 @@
 [
-  {
-    "repository": "CyanogenMod/android_device_oppo_common",
-    "target_path": "device/oppo/common",
-    "revision": "cm-12.1"
-  },
-  {
+    {
     "repository": "CyanogenMod/android_kernel_oneplus_onyx",
     "target_path": "kernel/oneplus/onyx",
     "revision": "cm-12.1"
-
   },
   {
     "repository": "CyanogenMod/android_hardware_qcom_fm",
