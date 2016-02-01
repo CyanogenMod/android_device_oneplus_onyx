@@ -14,9 +14,6 @@
 # limitations under the License.
 #
 
-# inherit from Oppo common
--include device/oppo/common/BoardConfigCommon.mk
-
 # SELinux
 -include device/qcom/sepolicy/sepolicy.mk
 
