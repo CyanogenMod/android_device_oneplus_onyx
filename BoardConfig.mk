@@ -100,7 +100,7 @@ ifeq ($(HOST_OS),linux)
 endif
 
 # Encryption
-TARGET_HW_DISK_ENCRYPTION := true
+TARGET_HW_DISK_ENCRYPTION := false
 
 # Filesystem
 BOARD_FLASH_BLOCK_SIZE := 131072
@@ -117,7 +117,7 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
 # Workaround for factory issue
-BOARD_VOLD_CRYPTFS_MIGRATE := true
+#BOARD_VOLD_CRYPTFS_MIGRATE := true
 
 # Flags
 COMMON_GLOBAL_CFLAGS += -DNO_SECURE_DISCARD
